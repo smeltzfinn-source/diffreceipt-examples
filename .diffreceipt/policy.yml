@@ -1,0 +1,17 @@
+version: 1
+network:
+  new_hosts: informational
+environment:
+  new_likely_secrets: informational
+database:
+  delete: informational
+github_actions:
+  permission_increase: informational
+  id_token_write: informational
+  mutable_action: informational
+routes:
+  new_routes: informational
+dependencies:
+  new_dependency: informational
+background_jobs:
+  new_job: informational
