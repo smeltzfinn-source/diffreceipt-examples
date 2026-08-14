@@ -10,4 +10,4 @@ jobs:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
         with:
           fetch-depth: 0
-      - uses: smeltzfinn-source/diffreceipt-action@ad03162342b610e64b9eff11158703a3f630b913
+      - uses: smeltzfinn-source/diffreceipt-action@7d6ad2828ef0e9f888c28c646fd2e5ee542c2313
