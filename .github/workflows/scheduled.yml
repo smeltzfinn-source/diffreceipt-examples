@@ -1,0 +1,11 @@
+name: Synthetic schedule
+on:
+  schedule:
+    - cron: '17 3 * * *'
+permissions:
+  contents: read
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - run: printf 'synthetic only\n'
