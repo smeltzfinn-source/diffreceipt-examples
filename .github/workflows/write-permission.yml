@@ -1,0 +1,9 @@
+name: Synthetic write permission
+on: workflow_dispatch
+permissions:
+  contents: write
+jobs:
+  example:
+    runs-on: ubuntu-latest
+    steps:
+      - run: printf 'synthetic only\n'
