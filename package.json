@@ -2,5 +2,6 @@
   "name": "diffreceipt-synthetic-examples",
   "private": true,
   "version": "1.0.0",
-  "description": "Text-only fixtures for capability-diff review"
+  "description": "Text-only fixtures for capability-diff review",
+  "dependencies": {"stripe": "^18.0.0"}
 }
